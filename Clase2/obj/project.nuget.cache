@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "ZbgQ3sDdsbYBs83OkGzp7wxQt9SNn9OU49f32UTP2WVCFCYIClJdHXSTSuf4klKF5qGo6VaLkc3T/+K1ja3FSw==",
+  "success": true,
+  "projectFilePath": "C:\\RepoGit\\Taller2\\prueba\\prueba.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\javie\\.nuget\\packages\\nlog\\5.0.4\\nlog.5.0.4.nupkg.sha512"
+  ],
+  "logs": []
+}

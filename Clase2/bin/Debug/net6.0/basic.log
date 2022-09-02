@@ -1,0 +1,7 @@
+
+2022-09-01 21:46:21.5181|0|TRACE|Program|Ejemplo de mensaje de trace  
+2022-09-01 21:46:21.5445|0|DEBUG|Program|Ejemplo de mensaje debug  
+2022-09-01 21:46:21.5445|0|INFO|Program|Ejemplo de mensaje de información 
+2022-09-01 21:46:21.5445|0|WARN|Program|Ejemplo de mensaje de Warm 
+2022-09-01 21:46:21.5445|0|ERROR|Program|Ejemplo de mensaje de error 
+2022-09-01 21:46:21.5445|0|FATAL|Program|Ejemplo de mensaje de error Fatal 
