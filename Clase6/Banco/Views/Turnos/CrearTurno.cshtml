@@ -1,0 +1,15 @@
+@model ViewModels.CrearTurnoViewModel
+
+
+<form  method="post">
+    <label class="form-label" asp-for="@Model.NombreCliente"></label>
+    <input class="form-control" asp-for="@Model.NombreCliente" /> <br />
+    <span class="form-control" asp-validation-for="@Model.NombreCliente" ></span>
+    <input class="form-control" asp-for="@Model.NumeroTelefono" /> <br />
+     <span class="form-control" asp-for="@Model.NumeroTelefono" ></span>
+    <input class="form-control" asp-for="@Model.DNI" /> <br/>
+    <button  class="btn btn-primary">Submit</button>
+</form>
+
+
+@section Scripts { <partial name="_ValidationScriptsPartial" /> } 

@@ -1,0 +1,28 @@
+
+
+@model   List<ViewModels.TurnoDiaViewModel>
+
+
+<table>
+    <thead>
+        <tr>
+            <th> Numero de Turno </th>
+            <th> Nombre </th>
+            <th> Fecha </th>
+        </tr>
+    </thead>
+    <tbody>
+        
+            @foreach (var item in Model)
+            {
+            <tr>
+                <td> @item.NumeroDeTurno </td>
+                <td> @item.NombreCliente </td>
+                <td> @item.FechaYHora    </td>
+            </tr>    
+            }
+
+            <a  asp-controller="Turnos" asp-action="ListarTurnosPendientes" > referescar </a>
+    </tbody>
+    
+</table>
